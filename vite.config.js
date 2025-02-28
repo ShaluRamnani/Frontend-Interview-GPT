@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()],
     define: {
-      'process.env': process.env, // Expose environment variables
+      'process.env.VITE_OPENAI_API_KEY': JSON.stringify(process.env.VITE_OPENAI_API_KEY)
     },
     base: "/Frontend-Interview-GPT/", 
   

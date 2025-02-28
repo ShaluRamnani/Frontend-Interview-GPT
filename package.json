@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ShaluRamnani.github.io/Frontend-Interview-GPT/"
+  "homepage": "https://ShaluRamnani.github.io/Frontend-Interview-GPT/",
 
   "scripts": {
     "dev": "vite",
