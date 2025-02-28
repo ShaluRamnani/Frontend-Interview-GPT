@@ -9,5 +9,6 @@ export default defineConfig({
     define: {
       'process.env': process.env, // Expose environment variables
     },
+    base: "/Frontend-Interview-GPT/", 
   
 })
